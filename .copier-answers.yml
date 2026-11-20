@@ -12,5 +12,4 @@ github_org: NFDI4Chem
 license: MIT
 project_description: A DCAT application profile for environment samples.
 project_name: envsample_dcat_ap
-project_slug: envsample-dcat-ap
-
+project_slug: envsample_dcat_ap

@@ -57,7 +57,7 @@ markdown_extensions:
   - md_in_html
 
 watch:
-  - src/envsample-dcat-ap/schema
+  - src/envsample_dcat_ap/schema
 
 nav:
   - Home: index.md

@@ -15,10 +15,10 @@ A DCAT application profile for environment samples.
 * [examples/](examples/) - Examples of using the schema
 * [project/](project/) - project files (these files are auto-generated, do not edit)
 * [src/](src/) - source files (edit these)
-  * [envsample-dcat-ap](src/envsample-dcat-ap)
-    * [schema/](src/envsample-dcat-ap/schema) -- LinkML schema
+  * [envsample_dcat_ap](src/envsample_dcat_ap)
+    * [schema/](src/envsample_dcat_ap/schema) -- LinkML schema
       (edit this)
-    * [datamodel/](src/envsample-dcat-ap/datamodel) -- generated
+    * [datamodel/](src/envsample_dcat_ap/datamodel) -- generated
       Python datamodel
 * [tests/](tests/) - Python tests
   * [data/](tests/data) - Example data

@@ -32,7 +32,7 @@ dev = [
 # explicitly include files other than default into the build distributions.
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/envsample-dcat-ap"]
+packages = ["src/envsample_dcat_ap"]
 
 [tool.hatch.version]
 source = "uv-dynamic-versioning"
@@ -50,7 +50,7 @@ testpaths = ["tests"]
 # https://docs.astral.sh/ruff/configuration/
 [tool.ruff]
 exclude = [
-    "src/envsample-dcat-ap/_version.py",
+    "src/envsample_dcat_ap/_version.py",
 ]
 # Set oldest supported Python version
 target-version = "py310"
@@ -62,8 +62,8 @@ skip = [
   "pyproject.toml",
   "uv.lock",
   "project/*",
-  "src/envsample-dcat-ap/datamodel/envsample-dcat-ap_pydantic.py",
-  "src/envsample-dcat-ap/datamodel/envsample-dcat-ap.py",
+  "src/envsample_dcat_ap/datamodel/envsample_dcat_ap_pydantic.py",
+  "src/envsample_dcat_ap/datamodel/envsample_dcat_ap.py",
 ]
 
 # Reminder: words have to be lowercased for the ignore-words-list
@@ -80,6 +80,6 @@ extend-exclude = [
   "uv.lock",
   "pyproject.toml",
   "project/*",
-  "src/envsample-dcat-ap/datamodel/envsample-dcat-ap_pydantic.py",
-  "src/envsample-dcat-ap/datamodel/envsample-dcat-ap.py",
+  "src/envsample_dcat_ap/datamodel/envsample_dcat_ap_pydantic.py",
+  "src/envsample_dcat_ap/datamodel/envsample_dcat_ap.py",
 ]
