@@ -8,8 +8,8 @@ imports:
 - linkml:types
 license: MIT
 prefixes:
-  envsample-dcat-ap:
-    prefix_prefix: envsample-dcat-ap
+  envsample_dcat_ap:
+    prefix_prefix: envsample_dcat_ap
     prefix_reference: https://w3id.org/NFDI4Chem/envsample_dcat_ap/
   linkml:
     prefix_prefix: linkml
@@ -26,7 +26,7 @@ prefixes:
   example:
     prefix_prefix: example
     prefix_reference: http://www.example.org/rdf#
-default_prefix: envsample-dcat-ap
+default_prefix: envsample_dcat_ap
 default_range: string
 types:
   string:
@@ -385,7 +385,7 @@ slots:
     definition_uri: https://w3id.org/NFDI4Chem/envsample_dcat_ap/age_in_years
     description: Number of years since birth
     from_schema: https://w3id.org/NFDI4Chem/envsample_dcat_ap
-    slot_uri: envsample-dcat-ap:age_in_years
+    slot_uri: envsample_dcat_ap:age_in_years
     owner: Person
     domain_of:
     - Person
@@ -395,7 +395,7 @@ slots:
     definition_uri: https://w3id.org/NFDI4Chem/envsample_dcat_ap/vital_status
     description: living or dead status
     from_schema: https://w3id.org/NFDI4Chem/envsample_dcat_ap
-    slot_uri: envsample-dcat-ap:vital_status
+    slot_uri: envsample_dcat_ap:vital_status
     owner: Person
     domain_of:
     - Person
@@ -403,7 +403,7 @@ slots:
   personCollection__people:
     name: personCollection__people
     from_schema: https://w3id.org/NFDI4Chem/envsample_dcat_ap
-    slot_uri: envsample-dcat-ap:people
+    slot_uri: envsample_dcat_ap:people
     alias: people
     owner: PersonCollection
     domain_of:
@@ -461,7 +461,7 @@ classes:
       primary_email:
         name: primary_email
         pattern: ^\S+@[\S+\.]+\S+
-    class_uri: envsample-dcat-ap:Person
+    class_uri: envsample_dcat_ap:Person
   PersonCollection:
     name: PersonCollection
     definition_uri: https://w3id.org/NFDI4Chem/envsample_dcat_ap/PersonCollection
@@ -475,10 +475,10 @@ classes:
         range: Person
         multivalued: true
         inlined_as_list: true
-    class_uri: envsample-dcat-ap:PersonCollection
+    class_uri: envsample_dcat_ap:PersonCollection
     tree_root: true
 metamodel_version: 1.12.0
-source_file: envsample-dcat-ap.yaml
-source_file_date: '2026-11-20T14:02:16'
+source_file: envsample_dcat_ap.yaml
+source_file_date: '2026-11-20T14:25:29'
 source_file_size: 2311
 
